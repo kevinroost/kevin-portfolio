@@ -1,5 +1,3 @@
-import { Document, Page } from "react-pdf"
-
 function Resume () {
   return(
     <>
