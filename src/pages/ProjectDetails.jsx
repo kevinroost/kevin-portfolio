@@ -7,7 +7,11 @@ const ProjectDetails = () => {
   const proj = findProject(projects, projectTitle)
 
   return (
-    <h1>{proj.title}</h1>
+    <>
+      <h1>{proj.title}</h1>
+      <p>{proj.description}</p>
+      <img src={proj.image} alt={proj.title} />
+    </>
   )
 }
 
