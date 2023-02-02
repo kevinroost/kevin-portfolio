@@ -1,13 +1,10 @@
+import ProjectPreview from "./ProjectPreview"
+
 const ProjectsList = ({project}) => {
   return (
-    <>
-      <li>
-        <h3>{project.title}</h3>
-        <p>
-          {project.description}
-        </p>
-      </li>
-    </>
+    <li>
+      <ProjectPreview project={project}/>
+    </li>
   )
 }
 
