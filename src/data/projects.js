@@ -4,7 +4,7 @@ const projects = [
     description: "My first project as a developer, this is a simple recreation of the classic game Tic-Tac-Toe, using JS with a dash of CSS and HTML. The program takes in each player's name and addresses them throughout, all the way up to announcing the winner.",
     image: "/images/TicTacToe.png",
     repositoryLink: "https://github.com/kevinroost/ttt-weekend.git",
-    deploymentLink: "This project isn't deployed yet!"
+    deploymentLink: "https://kevinroost-tictactoe.netlify.app/"
   },
   {
     title: "Boss Battles",
