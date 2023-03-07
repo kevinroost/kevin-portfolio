@@ -1,0 +1,49 @@
+nav {
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  padding-right: 2em;
+}
+
+li {
+  list-style: none;
+}
+
+#wide {
+  visibility: visible;
+}
+
+#narrow {
+  visibility: hidden;
+  position: absolute;
+}
+
+@media (max-width: 500px) {
+  #wide {
+    visibility: hidden;
+    max-height: 0px;
+  }
+  
+  #narrow {
+    visibility: visible;
+  }
+}

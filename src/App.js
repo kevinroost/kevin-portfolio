@@ -5,7 +5,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
-import NavBar from './Components/NavBar';
+import NavBar from './Components/NavBar/NavBar';
 import ProjectDetails from './pages/ProjectDetails';
 
 

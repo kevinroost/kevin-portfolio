@@ -1,10 +1,16 @@
+import './NavBar.css'
+
 import { Link } from "react-router-dom"
 
 function NavBar() {
   return(
     <nav>
-      <Link to="/">Kevin Roost</Link>
+      <a href='#hero' id='wide'>Kevin Roost</a>
+      <a href='#hero' id='narrow'>KR</a>
       <ul>
+        <li>
+          <a href='#projects'>Projects</a>
+        </li>
         <li>
           <Link to="/about">About</Link>
         </li>
@@ -13,9 +19,6 @@ function NavBar() {
         </li>
         <li>
           <Link to="/resume">Resume</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
         </li>
       </ul>
     </nav>
