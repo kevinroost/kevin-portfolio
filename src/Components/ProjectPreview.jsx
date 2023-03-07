@@ -1,18 +1,16 @@
 import { Link } from "react-router-dom"
 import hyphenate from "../utilities/hyphenateWords"
+import '../App.css'
 
 const ProjectPreview = ({project}) => {
   return (
-    <div>
-      <img src={project.image} alt={project.title} />
-      <h3>
-        {project.title}
-      </h3>
-      <Link to={`/projects/${hyphenate(project.title)}`}>
-        <button>
-          See More!
-        </button>
-      </Link>
+    <div className='overlap'>
+      {/* <div className='unhovered'> */}
+        <img className='proj-img' src={project.image} alt={project.title} />
+        <p className='proj-description'>{project.description}</p>
+      {/* </div> */}
+      {/* <div className='hovered'> */}
+      {/* </div> */}
     </div>
   )
 }

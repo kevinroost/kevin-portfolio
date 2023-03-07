@@ -1,7 +1,7 @@
 
 
 import { projects } from "../data/projects"
-import ProjectsList from "../Components/ProjectsList"
+import ProjectPreview from "../Components/ProjectPreview"
 
 
 function Home () {
@@ -31,11 +31,15 @@ function Home () {
 
       <section id='projects'>
         <h2>Projects</h2>
-        <ul>
+        <section id='project-list'>
+
           {projects.map(proj => (
-            <ProjectsList project={proj} key={proj.title} />
+            <div className='proj-card'>
+              <h3>{proj.title}</h3>
+              <ProjectPreview project={proj} key={proj.title} />
+            </div>
           ))}
-        </ul>
+        </section>
       </section>
 
 

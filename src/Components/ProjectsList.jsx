@@ -1,11 +1,11 @@
-import ProjectPreview from "./ProjectPreview"
+// import ProjectPreview from "./ProjectPreview"
 
-const ProjectsList = ({project}) => {
-  return (
-    <li>
-      <ProjectPreview project={project}/>
-    </li>
-  )
-}
+// const ProjectsList = ({project}) => {
+//   return (
+//     <li>
+//       <ProjectPreview project={project}/>
+//     </li>
+//   )
+// }
 
-export default ProjectsList
+// export default ProjectsList
