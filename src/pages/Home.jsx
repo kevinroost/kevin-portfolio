@@ -8,11 +8,14 @@ function Home () {
   return(
     <>
       <section id='hero'>
-        <h1>Kevin Roost</h1>
-        <h3>Software Engineer</h3>
+        <article id='header'>
+          <h1>Kevin Roost</h1>
+          <h3>Software Engineer</h3>
+        </article>
+
         <div>
-          <p>Hi! I'm a full-stack developer with special interest in JavaScript and database management. </p>
-          <p>image</p>
+          <p>Hi! I'm a Atlanta-based full-stack developer with special interest in JavaScript and database management. </p>
+          <p></p>
         </div>
         <div id='tech'>
           <img src="/Tech/js.png" alt="" />

@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom"
-import hyphenate from "../utilities/hyphenateWords"
 import '../App.css'
 
 const ProjectPreview = ({project}) => {
   return (
-    <a href={project.deploymentLink} className='overlap'>
-      {/* <div className='unhovered'> */}
-        <img className='proj-img' src={project.image} alt={project.title} />
-        <p className='proj-description'>{project.description}</p>
-      {/* </div> */}
-      {/* <div className='hovered'> */}
-      {/* </div> */}
-    </a>
+    <>
+      <div className='overlap'>
+          <img className='proj-img' src={project.image} alt={project.title} />
+          <p className='proj-description'>{project.description}</p>
+      </div>
+      <div className='links'>
+        <a href={project.repositoryLink}>GitHub</a>
+        <a href={project.deploymentLink}>Launch</a>
+      </div>
+    </>
   )
 }
 
