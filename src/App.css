@@ -136,11 +136,14 @@ section {
 .proj-description {
   background-color: white;
   font-size: 14px;
+  font-weight: 100;
   padding: 12px 2px;
   text-align: center;
   height: 100%;
   color: rgb(93, 0, 0);
-  visibility: hidden;
+  /* visibility: hidden; */
+  opacity: 0;
+  transition: .5s;
 }
 
 .overlap:hover .proj-description{
