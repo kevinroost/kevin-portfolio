@@ -4,14 +4,14 @@ import '../App.css'
 
 const ProjectPreview = ({project}) => {
   return (
-    <div className='overlap'>
+    <a href={project.deploymentLink} className='overlap'>
       {/* <div className='unhovered'> */}
         <img className='proj-img' src={project.image} alt={project.title} />
         <p className='proj-description'>{project.description}</p>
       {/* </div> */}
       {/* <div className='hovered'> */}
       {/* </div> */}
-    </div>
+    </a>
   )
 }
 

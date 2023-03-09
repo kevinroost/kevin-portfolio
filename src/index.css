@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  /* padding-right: 2em; */
 }
 
 body {
@@ -11,7 +10,10 @@ body {
   background-color: rgb(93, 0, 0);
   color: antiquewhite;
   height: 100%;
-  /* align-content: center; */
-  
-  /* position: relative; */
+}
+
+p {
+  font-family: 'Prata', serif;
+  font-size: 16px;
+  font-weight: bold;
 }

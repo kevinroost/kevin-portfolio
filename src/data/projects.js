@@ -19,6 +19,20 @@ const projects = [
     image: "/images/FantasyDragRace.png",
     repositoryLink: "https://github.com/kevinroost/Fantasy-Drag-Race.git",
     deploymentLink: "https://fantasy-drag-race.fly.dev/"
+  },
+  {
+    title: "CAST",
+    description: "This app was born out of a desire to optimize a very manual casting process. Instead of sifting through resumes one by one, Cast allows Talent to setup a profile and have Casting Directors reach out to them. It's more simple, streamined, and modern.",
+    image: "/images/CAST.png",
+    repositoryLink: "https://github.com/kevinroost/cast-front-end",
+    deploymentLink: "https://castapp.netlify.app/"
+  },
+  {
+    title: "ShelterBy",
+    description: "Especially during the pandemic- families have been home more and thus feel more available for a furry friend. However, people are suddenly unable to care for their pets, whether because they have returned to work in person and are unavailable, or they have not been able to work and funds have dried up. What does this mean? These new pets can't stick around. Something needs to happen. This causes an influx of animals at shelters or worse: in the wild. ShelterBy can help. We give an alternate to sending a furry friend to a shelter or off as a stray.",
+    image: "/images/ShelterBy.png",
+    repositoryLink: "https://github.com/kevinroost/shelterby-front-end",
+    deploymentLink: "https://shelterby.netlify.app/"
   }
 ]
 
