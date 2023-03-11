@@ -15,10 +15,10 @@ function NavBar() {
           <a href='#about'>About</a>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
         <li>
-          <Link to="/resume">Resume</Link>
+          <a href="#resume">Resume</a>
         </li>
       </ul>
     </nav>

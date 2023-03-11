@@ -220,16 +220,18 @@ section {
 #contact-resume {
   display: flex;
   justify-content: space-around;
+  min-height: 0;
+  margin-bottom: 5em;
 }
 
 #contact-resume h2 {
   font-size: 40px;
+  margin-bottom: .5em;
 }
 
 @media (max-width: 650px) {
   #contact-resume {
     flex-direction: column;
-    min-height: 0;
   }
 }
 

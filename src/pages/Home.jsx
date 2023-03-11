@@ -36,7 +36,7 @@ function Home () {
 
       <section id='projects'>
         <h2>Projects</h2>
-        <section id='project-list'>
+        <article id='project-list'>
 
           {projects.map(proj => (
             <div className='proj-card'>
@@ -44,7 +44,7 @@ function Home () {
               <ProjectPreview project={proj} key={proj.title} />
             </div>
           ))}
-        </section>
+        </article>
       </section>
 
       <section id='about'>
@@ -79,7 +79,10 @@ function Home () {
           <a className='link' href="images/KevinRoostResumePDF.pdf" download="images/KevinRoostResumePDF.pdf">Download PDF</a>
         </article>
       </section>
-
+      
+      <footer>
+        
+      </footer>
     </>
   )
 }
