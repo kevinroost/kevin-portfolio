@@ -57,11 +57,12 @@ section {
   display: flex;
   margin-left: -1em;
   margin-right: -1em;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5vw;
   align-items: baseline;
 }
 
-#header * {
+#header h3 {
   text-align: left;
 
 }
@@ -210,7 +211,9 @@ section {
   }  
   #about-text p {
     width: 100%;
-
+  }
+  #header {
+    flex-direction: column;
   }
 }
 
