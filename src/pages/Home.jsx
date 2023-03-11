@@ -14,8 +14,10 @@ function Home () {
         </article>
 
         <div>
-          <p>Hi! I'm a Atlanta-based full-stack developer with special interest in JavaScript and database management. </p>
-          <p></p>
+          <p id='intro'>Hi! I'm a Atlanta-based full-stack developer with special interest in JavaScript and database management. </p>
+          <p>
+            <img src="/images/headshot.jpg" alt="headshot" id='headshot'/>
+          </p>
         </div>
         <div id='tech'>
           <img src="/Tech/js.png" alt="" />

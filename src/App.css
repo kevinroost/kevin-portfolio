@@ -40,7 +40,7 @@
 
 section {
   min-height: 80vh;
-  padding: 5vh 10vh 0;
+  padding: 3em 5vw 0;
   /* box-shadow: 0 5px 5px; */
 }
 
@@ -69,7 +69,6 @@ section {
 
 #hero h1 {
   margin-bottom: 0;
-  padding-top: 1em;
 }
 
 #hero h3{
@@ -78,17 +77,20 @@ section {
   margin-top: 0;
 }
 
-#hero div{
+#hero div:first-of-type{
   display: flex;
-  align-items: stretch;
-  justify-content: space-around;
   align-self: center;
 }
 
 #hero p {
-  width: 50%;
+  /* width: 50%; */
   flex-grow: 1;
   font-size: 16px;
+}
+
+#intro {
+  border-right: 1px solid antiquewhite;
+  width: 250px;
 }
 
 #tech {
@@ -97,7 +99,7 @@ section {
   flex-wrap: wrap;
   align-self: center;
   justify-content: space-around;
-  gap: .5em;
+  gap: 3vw;
   max-width: 60vh;
   background-color: black;
   padding: 1em;
@@ -112,7 +114,7 @@ section {
 
 #project-list {
   display: flex;
-
+  gap: 4vw;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -186,7 +188,7 @@ section {
 
 #about-text {
   display: flex;
-  gap: 1em;
+  gap: 2em;
 }
 
 #about-text p{
@@ -205,6 +207,12 @@ section {
   margin: 1em auto 0;
 }
 
+#headshot {
+  display: block;
+  width: 250px;
+  margin-left: 1em;
+}
+
 @media (max-width: 850px) {
   #about-text {
     display: block;
@@ -214,6 +222,21 @@ section {
   }
   #header {
     flex-direction: column;
+  }
+  #hero div:first-of-type {
+    flex-direction: column;
+  }
+  #intro {
+    border-right: none;
+    border-bottom: 1px solid antiquewhite;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #tech img {
+    width: 3em;
   }
 }
 
