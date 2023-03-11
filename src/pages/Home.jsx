@@ -67,6 +67,18 @@ function Home () {
         </article>
       </section>
 
+      <section id='contact-resume'>
+        <article id='contact'>
+          <h2>Reach Out</h2>
+          <a className='link' href="mailto:kroost92@gmail.com">E-Mail</a>
+          <a className='link' href="https://www.linkedin.com/in/kevinroost/">Linked-In</a>
+        </article>
+        <article id='resume'>
+          <h2>Grab My Resume</h2>
+          <a className='link' href="images/KevinRoostResumePDF.pdf" target='_blank' >Preview in Browser</a>
+          <a className='link' href="images/KevinRoostResumePDF.pdf" download="images/KevinRoostResumePDF.pdf">Download PDF</a>
+        </article>
+      </section>
 
     </>
   )
