@@ -1,3 +1,7 @@
+*:hover {
+  cursor: default;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,7 +11,7 @@ body {
   font-family: 'Permanent Marker', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(93, 0, 0);
+  background-color: rgb(59, 0, 0);
   color: antiquewhite;
   height: 100%;
 }
@@ -16,8 +20,4 @@ p {
   font-family: 'Prata', serif;
   font-size: 14px;
   font-weight: bold;
-}
-
-p:hover {
-  cursor: default;
 }

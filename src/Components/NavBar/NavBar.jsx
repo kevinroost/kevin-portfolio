@@ -12,7 +12,7 @@ function NavBar() {
           <a href='#projects'>Projects</a>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <a href='#about'>About</a>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
