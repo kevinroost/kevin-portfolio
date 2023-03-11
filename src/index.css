@@ -19,3 +19,9 @@ body {
 p {
   font-family: 'Prata', serif;
 }
+
+a {
+  margin: 0;
+  text-decoration: none;
+  color: antiquewhite;
+}

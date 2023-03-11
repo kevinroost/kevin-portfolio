@@ -11,10 +11,9 @@ nav {
   z-index: 1;
 }
 
-a {
-  margin: 0;
-  text-decoration: none;
-  color: antiquewhite;
+nav a {
+
+  font-size: 2vw;
 }
 
 nav ul {
@@ -36,6 +35,12 @@ li {
 #narrow {
   visibility: hidden;
   position: absolute;
+}
+
+@media (max-width: 850px) {
+  nav a {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 500px) {
