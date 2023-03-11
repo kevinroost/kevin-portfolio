@@ -8,8 +8,8 @@ const ProjectPreview = ({project}) => {
           <p className='proj-description'>{project.description}</p>
       </div>
       <div className='links'>
-        <a className='link' href={project.repositoryLink}>GitHub</a>
-        <a className='link' href={project.deploymentLink}>Launch</a>
+        <a target='_blank' rel="noreferrer" className='link' href={project.repositoryLink}>GitHub</a>
+        <a target='_blank' rel="noreferrer" className='link' href={project.deploymentLink}>Launch</a>
       </div>
     </>
   )

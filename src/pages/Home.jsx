@@ -37,7 +37,6 @@ function Home () {
       <section id='projects'>
         <h2>Projects</h2>
         <article id='project-list'>
-
           {projects.map(proj => (
             <div className='proj-card'>
               <h3>{proj.title}</h3>
@@ -47,6 +46,19 @@ function Home () {
         </article>
       </section>
 
+      <section id='contact-resume'>
+        <article id='contact'>
+          <h2>Reach Out</h2>
+          <a className='link' href="mailto:kroost92@gmail.com">E-Mail</a>
+          <a className='link' href="https://www.linkedin.com/in/kevinroost/">Linked-In</a>
+        </article>
+        <article id='resume'>
+          <h2>Grab My Resume</h2>
+          <a className='link' href="images/KevinRoostResumePDF.pdf" target='_blank' >Preview in Browser</a>
+          <a className='link' href="images/KevinRoostResumePDF.pdf" download="images/KevinRoostResumePDF.pdf">Download PDF</a>
+        </article>
+      </section>
+      
       <section id='about'>
         <h2>About</h2>
         <article id='about-text'>
@@ -67,21 +79,23 @@ function Home () {
         </article>
       </section>
 
-      <section id='contact-resume'>
-        <article id='contact'>
-          <h2>Reach Out</h2>
-          <a className='link' href="mailto:kroost92@gmail.com">E-Mail</a>
-          <a className='link' href="https://www.linkedin.com/in/kevinroost/">Linked-In</a>
-        </article>
-        <article id='resume'>
-          <h2>Grab My Resume</h2>
-          <a className='link' href="images/KevinRoostResumePDF.pdf" target='_blank' >Preview in Browser</a>
-          <a className='link' href="images/KevinRoostResumePDF.pdf" download="images/KevinRoostResumePDF.pdf">Download PDF</a>
-        </article>
-      </section>
-      
       <footer>
-        
+        <article>
+
+          <a href="mailto:kroost92@gmail.com">
+            <img className='logo' src="icons/Email.png" alt="email-icon" />
+          </a>
+          <a href="https://github.com/kevinroost" target='_blank' rel="noreferrer">
+            <img className='logo' src="icons/GitHub.png" alt="github-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/kevinroost/" target='_blank' rel="noreferrer">
+            <img className='logo' src="icons/LinkedIn.png" alt="linkedin-icon" />
+          </a>
+          <a href="http://instagram.com/_u/kevinroost/" target='_blank' rel="noreferrer">
+            <img className='logo' src="icons/Instagram.png" alt="ig-icon" />
+          </a>
+        </article>
+        <a className='link' href="#hero">Back to Top</a>
       </footer>
     </>
   )

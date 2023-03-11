@@ -221,7 +221,6 @@ section {
   display: flex;
   justify-content: space-around;
   min-height: 0;
-  margin-bottom: 5em;
 }
 
 #contact-resume h2 {
@@ -229,9 +228,31 @@ section {
   margin-bottom: .5em;
 }
 
+footer {
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  padding: 1em;
+}
+
+footer a {
+  padding-right: 10px;
+}
+
+.logo {
+  width: 40px;
+}
+
 @media (max-width: 650px) {
   #contact-resume {
     flex-direction: column;
+    align-items: center;
+  }
+  #contact {
+    margin-bottom: 1em;
   }
 }
 
