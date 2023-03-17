@@ -1,17 +1,23 @@
-* {
-  box-sizing: border-box;
+*:hover {
+  cursor: default;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Permanent Marker', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(59, 0, 0);
   color: antiquewhite;
   height: 100%;
+}
+
+p {
+  font-family: 'Prata', serif;
 }
 
 a {

@@ -12,7 +12,8 @@ nav {
 }
 
 nav a {
-  font-size: 22px;
+
+  font-size: 2vw;
 }
 
 nav ul {
@@ -47,7 +48,7 @@ li {
     visibility: hidden;
     max-height: 0px;
   }
-
+  
   #narrow {
     visibility: visible;
   }
