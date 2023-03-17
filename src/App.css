@@ -302,6 +302,18 @@ footer a {
   }
 }
 
+@media (max-width: 400px) {
+  nav ul {
+    padding-left: 20px;
+  }
+  #hero h1 {
+    font-size: 50px;
+  }
+  section {
+    padding-top: 4em;
+  }
+}
+
 h1 {
   font-size: 70px;
   font-weight: 300;
